@@ -1,0 +1,43 @@
+@media (max-width: 320px) {
+  .header_head__logo-item {
+    width: 106px;
+    height: 30px;
+  }
+  .header_head {
+    height: 30px;
+    width: 120px;
+  }
+  .header_head__text {
+    display: none;
+  }
+  .header_footer__search {
+    display: none;
+  }
+  .header_footer__menu-location {
+    display: none;
+  }
+  .header_footer__menu {
+    width: 180px;
+  }
+  .header_head__call {
+    display: none;
+  }
+  .header_head__nav {
+    display: none;
+  }
+  .main {
+    width: 320px;
+  }
+  .menu_item-title {
+    font-size: 80%;
+  }
+  .menu_list {
+    display: flex;
+    width: 320px;
+    flex-direction: row;
+  }
+  .menu_list_info {
+    width: 160px;
+    position: relative;
+  }
+}

@@ -389,8 +389,7 @@
   width: 100%;
   margin-left: 40px;
 }
-.services_menu__list-item--title {
-}
+
 .services_menu__img {
   width: 50%;
 }
@@ -463,8 +462,10 @@
 }
 .why {
   width: 100%;
-
   background-color: #f5feff;
+}
+.why_header {
+  margin: 0px 40px;
 }
 .why_list {
   width: 100%;
@@ -486,4 +487,111 @@
   width: 30px;
   height: 30px;
   margin: 0 20px;
+}
+.news {
+  width: 100%;
+  margin: 60px auto;
+}
+.news_conteiner {
+  width: 100%;
+}
+.news_header {
+  width: 1200px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+.news_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.news_header__botton {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.news_footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.news_list__blok-item--title {
+  color: black;
+}
+.footer {
+  width: 1280px;
+  height: auto;
+  margin: 0px auto;
+}
+.footer_header {
+  height: 310px;
+  background-color: #dddcdc;
+  display: grid;
+  grid-template-columns: 300px 150px 150px 150px 200px;
+  justify-content: space-between;
+}
+.footer_header__blok-nav {
+  margin-top: 30px;
+}
+.footer_header__blok-title {
+  height: 30px;
+}
+.footer_header__blok-nav-item {
+  text-decoration: none;
+  color: black;
+}
+.footer_header__blok-nav-list {
+  list-style-type: none;
+  margin: 10px 0px;
+}
+.footer_header__blok-nav-menu {
+  padding: 0;
+  margin-left: 0px;
+}
+.footer_header__blok-logo {
+  margin: 20px 60px;
+}
+.footer_header__blok-text {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+.footer_header__blok-text--item {
+  color: rgb(119, 117, 117);
+}
+.footer_header__blok-text--item {
+  font-size: 80%;
+}
+.footer_header__blok-botton--item {
+  width: 140px;
+  height: 42px;
+  background: #f3aa3c;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  border: 0;
+}
+.footer_header__blok {
+  margin-top: 30px;
+}
+.footer_footer {
+  height: 60px;
+  background: #666666;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_footer__blok {
+  margin: auto 60px;
+  width: auto;
+}
+.footer_footer__blok-item--text {
+  color: #d3d3d3;
+}
+.footer_footer__blok-item--img {
+  margin-right: 30px;
 }
